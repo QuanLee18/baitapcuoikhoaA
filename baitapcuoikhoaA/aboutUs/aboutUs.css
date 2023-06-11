@@ -1,0 +1,105 @@
+.header{
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    border: 2px solid;
+}
+
+.header1{
+    padding-top: 50px;
+}
+
+.header1 a{
+    font-size: x-large;
+    color: white;
+    padding-left: 60px;
+    transition: all 1s;
+    animation-duration: 5s;
+    transition: 1.5s;
+    text-decoration: none;
+}
+.header1 a:hover{
+    color: orange;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 8px #f9f8fc;
+    letter-spacing: 5px;
+    top: 30px;
+    
+}
+.Register_Login{
+    display: flex;
+    background-color: rgb(50, 50, 50);
+   justify-content: center;
+    padding-bottom: 50px;
+}
+
+.background{
+    background-image: url(https://fsc.org/sites/default/files/2022-08/FSC_BATS_A7RII_0105_0.png);
+    padding-bottom: 400px;
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+    filter: brightness(90%);
+}
+
+.para1{
+    padding-left: 250px;
+    padding-right: 250px;
+    font-weight: 500;
+    
+}
+.change{
+    padding-top: 40px;
+    display: flex;
+}
+.change1{
+    padding-left: 90px;
+}
+.button {
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: rgb(225, 206, 169);
+    font-weight: 900;
+    position: relative;
+    top: 15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgb(255, 212, 132);
+    width: 200px;
+    height: 65px;
+    background-color: rgb(255, 226, 172);
+    animation-duration: 5s;
+    transition: 1.5s;
+    font-weight: lighter;
+}
+
+.button:hover {
+    padding: 0px 10px 0px 10px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: inset 0 0 8px #f9f8fc;
+    letter-spacing: 5px;
+    top: 30px;
+    background-color: orange;
+    font-weight: lighter;
+    width: 250px;
+    height: 90px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+.footer1{
+    text-decoration: none;
+    background-color: gray;
+    padding-left: 20px;
+}
